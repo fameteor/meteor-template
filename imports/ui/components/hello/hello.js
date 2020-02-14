@@ -1,3 +1,4 @@
+import '../icon/icon.js';
 import './hello.html';
 
 Template.hello.onCreated(function helloOnCreated() {

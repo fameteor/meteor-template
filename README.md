@@ -20,4 +20,12 @@ SCSS compiler added :
 
 `ui/layouts/body` modified to include navbar
 
+## [Fontawesome 5.12.1](https://fontawesome.com/) added
+
+`meteor npm install --save @fortawesome/fontawesome-free`
+
+To use fontaweome : `import fontawesome from '@fortawesome/fontawesome-free/js/all.js';`
+
+`ui/components/icon` component added and used in navbar
+
 
