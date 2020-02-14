@@ -28,4 +28,22 @@ To use fontaweome : `import fontawesome from '@fortawesome/fontawesome-free/js/a
 
 `ui/components/icon` component added and used in navbar
 
+## Accounts-password and [Meteor roles](https://github.com/Meteor-Community-Packages/meteor-roles)
+
+`meteor add accounts-password`
+
+`meteor add accounts-ui`
+
+`meteor add alanning:roles`
+
+Login button added in navbar component
+
+
+## Remaining issues
+
+- accounts-ui multilingual support (see if something can be done with accounts-ui-unstyled)
+- login button do not fit nicely in Bootstrap navbar
+- choose an I18n package without Jquery compatibility problem
+- (secondary) bcrypt native implementation to add (check when in prod)
+
 
