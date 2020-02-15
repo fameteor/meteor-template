@@ -28,7 +28,7 @@ To use fontaweome : `import fontawesome from '@fortawesome/fontawesome-free/js/a
 
 `ui/components/icon` component added and used in navbar
 
-## Accounts-password and [Meteor roles](https://github.com/Meteor-Community-Packages/meteor-roles)
+## Accounts-password and [Meteor roles V3](https://github.com/Meteor-Community-Packages/meteor-roles)
 
 `meteor add accounts-password`
 
@@ -38,12 +38,21 @@ To use fontaweome : `import fontawesome from '@fortawesome/fontawesome-free/js/a
 
 Login button added in navbar component
 
+Roles `DEV` and "ADMIN" added in `startup/both/commonParms.js`
+
+`startup/server/mongoInit` function added to initialise from scratch the mongo db.
+
+`ui/components/navbar` modified to display "dev" menu only if "DEV" rôle
+
 
 ## Remaining issues
 
 - accounts-ui multilingual support (see if something can be done with accounts-ui-unstyled)
 - login button do not fit nicely in Bootstrap navbar
 - choose an I18n package without Jquery compatibility problem
+- git version management to add
 - (secondary) bcrypt native implementation to add (check when in prod)
+- add linter
+- manage permission and rôles
 
 
