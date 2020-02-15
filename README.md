@@ -44,9 +44,14 @@ Roles `DEV` and "ADMIN" added in `startup/both/commonParms.js`
 
 `ui/components/navbar` modified to display "dev" menu only if "DEV" rôle
 
+## [Simple schema V1.3.3](https://github.com/aldeed/simple-schema-js)
+
+`meteor npm install --save simpl-schema`
+
 
 ## Remaining issues
 
+- TAP:i18N installation problem due to meteor 1.9 Jquery ^3.4.1 version (installed with NPM since 1.8)
 - accounts-ui multilingual support (see if something can be done with accounts-ui-unstyled)
 - login button do not fit nicely in Bootstrap navbar
 - choose an I18n package without Jquery compatibility problem
@@ -54,5 +59,9 @@ Roles `DEV` and "ADMIN" added in `startup/both/commonParms.js`
 - (secondary) bcrypt native implementation to add (check when in prod)
 - add linter
 - manage permission and rôles
+- see how to replace Toastr by Bootstrap 4 Toasts
+- Meteor user status to be added
+- simpl schema and autoform internationalosation to be done
+- installer et tester : (https://github.com/GaetanRouzies/bootstrap-4-modal)
 
 
